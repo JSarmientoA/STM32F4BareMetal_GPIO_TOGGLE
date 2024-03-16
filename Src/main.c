@@ -1,7 +1,7 @@
 
-#define PERIPH_BASE					(0x40000000UL)//UL = Unsigned Long.Donde 0x40000000 es la dirección de memoria donde
+#define PERIPH_BASE					(0x40000000UL)//UL = Unsigned Long. Donde 0x40000000 es la dirección de memoria donde
                                       //inician todos los periféricos
-#define AHB1PERIPH_OFFSET			(0x00020000UL)//Desplazamiento hacia la posicision de memoria donde esta ubicado
+#define AHB1PERIPH_OFFSET			(0x00020000UL)//Desplazamiento hacia la posición de memoria donde está ubicado
 												//el bus AHB1(Advanced High Performance) (Bus Avanzado de alto Rendimiento)
 #define AHB1PERIPH_BASE				(PERIPH_BASE + AHB1PERIPH_OFFSET)// Esto es 0x40000000UL + 0x00020000UL = 0x40020000UL.
 																	// Primera posicion de memoria donde se ubica el bus AHB1
